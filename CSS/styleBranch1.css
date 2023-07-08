@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.3rem;
+  background-color:black;
+  color: rgb(136, 255, 235);
+  font-family: monospace;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    padding-left: 45px;
+    line-height: 2rem;
+}
+
+.box{
+    background-color:rgb(9, 0, 47);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.top{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.imgages{
+    order: 1;
+    display: inline-block;
+    justify-self: center;
+}
+
+.text{
+    line-height: 2em;
+    order: -1;
+    display: inline-block;
+}
+
+.titles{
+    padding-bottom: 20PX;
+}
+
+.list-title{
+    padding: 15px;
+}
+
+.contact, .list-title{
+    padding-left: 15px;
+    color: rgb(0, 216, 14);
+}
+
+.education, .projects, .skills, .hobbies{
+    margin-left: 50px;
+    padding: 40px;
+}
+
+.marks{
+    color: rgb(0, 226, 132);
+}
+
+#active{
+    color: rgb(18, 18, 255);
+}
