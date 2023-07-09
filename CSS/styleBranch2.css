@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+}
+
+.top{
+    margin: 80px auto;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(100, 175, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
