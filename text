@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shashank Patgaonkar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styleBranch1.css" />
+  </head>
+  <body>
+    <h1>></h1>
+    <h1>>...</h1>
+    <div class="box">
+      <div class="top">
+        <div class="images">
+          <img
+            class="profile-img"
+            width="200px"
+            height="250px"
+            src="img/Me.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <p id="name">> MR. SHASHANK SADASHIV PATGAONKAR</p>
+          <p id="quali">> Computer Science and Engineering</p>
+
+          <div class="contact-list">
+            <p>> Contact</p>
+            <p class="contact">$ Mobile : +91 9146567388</p>
+            <p class="contact">$ Email : shashankpatgaonkar200011@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education">
+        <p class="titles">> EDUCATION</p>
+        <ul class="college">
+          <p class="list-title">$ TKIET Warananagar</p>
+
+          <li>
+            F.Y.B Tech- [2019-20] <br />
+            <span class="marks">84%</span>
+          </li>
+          <li>
+            S.Y.B Tech- [2020-21] <br />
+            <span class="marks">91.94%</span>
+          </li>
+          <li>
+            T.Y.B Tech- [2020-21] <br />
+            <span class="marks">89.87%</span>
+          </li>
+          <li>Final Year B Tech - <br>
+            <span class="marks" id="active">>> Pursuing...[]</span></li>
+        </ul>
+        <ul class="hsc">
+          <p class="list-title">$ Vivekananda College Kolhapur</p>
+          <li>
+            HSC State Board [2018-19] <br />
+            <span class="marks">79.08%</span>
+          </li>
+        </ul>
+        <ul class="ssc">
+          <p class="list-title">$ Kirti Vidhyalaya Ghotgewadi</p>
+          <li>
+            SSC State Board [2016-17] <br />
+            <span class="marks">94.20%</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="projects">
+        <p class="titles">> PROJECTS</p>
+        <ul>
+          <p class="list-title">(Final Year)</p>
+          <li>High frequency forcasting on stock market</li>
+
+          <p class="list-title">(Third Year)</p>
+          <li>
+            ZP School Monthly M-D-M report
+            <br />
+            Technologies used - HTML, CSS, JS, NodeJS, MySQL
+            <br />
+            Domain : Web Application
+          </li>
+
+          <p class="list-title">(Second Year)</p>
+          <li>
+            Tic Tac Toe Game
+            <br />
+            Technologies used - C, Data structures
+          </li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <p class="titles">> SKILLS</p>
+        <div class="container">
+          <div class="row">
+            <ul>
+              <p class="list-title">(Soft Skills)</p>
+              <li>Logical Thinking</li>
+              <li>Focused</li>
+              <li>Quick Learner</li>
+              <li>Keen Observer</li>
+            </ul>
+          </div>
+          <div class="row">
+            <ul>
+              <p class="list-title">(Core Skills)</p>
+              <li>C/C++</li>
+              <li>C#</li>
+              <li>JAVA</li>
+              <li>HTML, CSS</li>
+              <li>Data Structures</li>
+              <li>Database (SQL)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobbies">
+        <p class="titles">> HOBBIES</p>
+        <ul>
+          <li>Reading 📚</li>
+          <li>Writing ✒️</li>
+          <li>Acting 🎭</li>
+          <li>Listening classical music 🎧</li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <p>
+          >> The above information furnished by me is true to the best of my
+          knowledge and belief.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
