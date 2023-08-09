@@ -5,103 +5,70 @@
 
 body {
   font-size: 1.3rem;
+  background-color:black;
+  color: rgb(136, 255, 235);
+  font-family: monospace;
 }
 
-li {
-  list-style: none;
-  font-style: italic;
-  padding: 0;
-  line-height: 2rem;
+p{
+    font-size: 1.6rem;
 }
 
-hr {
-  border: dotted #909090 7px;
-  border-bottom: none;
-  width: 8%;
-  margin: 20px auto;
+li{
+    list-style: none;
+    color: aliceblue;
+    padding-left: 45px;
+    line-height: 2rem;
 }
 
-.titles {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(125, 28, 216);
-  font-size: 1.5rem;
-  padding-bottom: 20PX;
-  /* transform: rotate(-45deg); */
+.box{
+    background-color:rgb(9, 0, 47);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
 }
 
-.top {
-  background-color: rgb(209, 234, 255);
-}
-
-.images {
-  padding-top: 20px;
-  text-align: center;
-}
-
-.text {
-  color: rgb(45, 25, 126);
-  padding: 35px;
-  text-align: center;
-}
-
-.contact {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1rem;
-  padding: 10px;
-}
-
-.education,
-.projects,
-.skills,
-.hobbies {
-  background-color: rgb(192, 255, 253);
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  padding: 20px;
-}
-
-.list-title {
-  color: rgb(45, 25, 126);
-  padding: 15px;
-}
-
-.projects {
-  background-color: rgb(225, 242, 255);
-}
-
-.container{
+.top{
+    padding: 50px;
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center;
-}
-.row {
-  display: inline-block;
-  padding: 0rem 10rem;
+    gap: 200px;
 }
 
-.hobbies {
-  background-color: rgb(225, 242, 255);
+.imgages{
+    order: 1;
+    display: inline-block;
+    justify-self: center;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  background-color: rgb(57, 0, 148);
-  font-family: "Sacramento", cursive;
-  font-size: 1.1rem;
-  color: white;
+.text{
+    line-height: 2em;
+    order: -1;
+    display: inline-block;
 }
 
-#name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  padding: 20px;
+.titles{
+    padding-bottom: 20PX;
 }
 
-#quali {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 2rem;
-  padding: 20px 0 30px 0;
+.list-title{
+    padding: 15px;
+}
+
+.contact, .list-title{
+    padding-left: 15px;
+    color: rgb(0, 216, 14);
+}
+
+.education, .projects, .skills, .hobbies{
+    margin-left: 50px;
+    padding: 40px;
+}
+
+.marks{
+    color: rgb(0, 226, 132);
+}
+
+#active{
+    color: rgb(18, 18, 255);
 }
